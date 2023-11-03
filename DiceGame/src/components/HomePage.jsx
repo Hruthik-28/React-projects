@@ -13,7 +13,7 @@ function HomePage() {
                 <h1 className="text-5xl sm:text-8xl font-bold">DICE GAME</h1>
                 <div className="text-center mt-4 ml-20">
                     <Link to={'/gamePage'}>
-                        <Button classname='hover:bg-white hover:text-black hover:border hover:border-black'>
+                        <Button classname='mt-5 px-10 sm:px-20 py-2 rounded-lg hover:bg-white hover:text-black hover:border hover:border-black'>
                             Play Now
                         </Button>
                     </Link>
